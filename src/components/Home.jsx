@@ -11,7 +11,10 @@ function Main() {
         PRESENTING YOU THE MOST AMAZING AND LUXURIOUS BACKPACKS THAT CAN BE USED
         FOR SCHOOL,COLLEGES,UNIVERSITIES BUSINESS TRIPS OR JUST A SIMPLE PICNIC.
       </p>
-      <button className='main-btn'>Shop Now</button>
+      <div className="main-btn">
+        <button>Shop Now</button>
+        <button className="second-btn">Add to Cart</button>
+      </div>
 
       </div>
       <div className="main-img-container">

@@ -1,6 +1,7 @@
 import brandLogo from '../../public/images/brand_logo.png';
 import './component.css'
 
+
 function Nav(){
     return(
         <nav className='nav container'>
@@ -13,6 +14,8 @@ function Nav(){
                 <li href='#'>About Us</li>
                 <li href='#'>Contact</li>
             </ul>
+            <img src="" alt="" />
+             {/* Add a cart icon that has number on top that indicates how many items are in the cart*/}
             <button>Login</button>
         </nav>
     )
