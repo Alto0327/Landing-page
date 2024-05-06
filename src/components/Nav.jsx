@@ -13,8 +13,7 @@ function Nav(){
                 <li href='#'>Backpacks</li>
                 <li href='#'>About Us</li>
                 <li href='#'>Contact</li>
-            </ul>
-            <img src="" alt="" />
+            </ul> 
              {/* Add a cart icon that has number on top that indicates how many items are in the cart*/}
             <button>Login</button>
         </nav>

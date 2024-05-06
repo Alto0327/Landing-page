@@ -18,7 +18,7 @@ function Main() {
 
       </div>
       <div className="main-img-container">
-        <img src={backpack} alt="" className='main-img'/>
+        <img src={backpack} alt="" className='bigimg'/>
       </div>
     </main>
   );

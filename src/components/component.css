@@ -9,7 +9,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 4.5rem;
-    padding: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 button{
@@ -39,4 +39,30 @@ button{
 
 .landing{
     height: calc(100vh- 4.5rem);
+    display: flex;
+    align-items: center;
+}
+
+.bigimg{
+    width: 600px;
+    height: 600px;
+    margin-right: -80px;
+    margin-top: -88px;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.main-text h1{
+    font-size: 108px;
+    font-weight:bolder;
+    line-height: 102px;
+}
+
+.main-text p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:500;
 }
