@@ -1,4 +1,5 @@
-import backpack from '../../public/images/backpack.png'
+import backpack from '../assets/backpack.png'
+import amazon from '../assets/amazon.png'
 import './component.css'
 
 function Main() {
@@ -15,8 +16,13 @@ function Main() {
         <button>Shop Now</button>
         <button className="second-btn">Add to Cart</button>
       </div>
+      <div className='amazon-container'>
 
+      <p>Available on</p>
+        <img src={amazon} alt="amazon" className='amazon'/>
+        </div>
       </div>
+
       <div className="main-img-container">
         <img src={backpack} alt="" className='bigimg'/>
       </div>

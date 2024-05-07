@@ -1,4 +1,4 @@
-import brandLogo from '../../public/images/brand_logo.png';
+import brandLogo from '../assets/brand_logo.png';
 import './component.css'
 
 

@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4.5rem;
+    height: 4rem;
     padding-top: 1.25rem;
 }
 
@@ -57,7 +57,7 @@ button{
 }
 .main-text h1{
     font-size: 108px;
-    font-weight:bolder;
+    font-weight:800;
     line-height: 102px;
 }
 
@@ -65,4 +65,21 @@ button{
     font-size: 16px;
     line-height: 20px;
     font-weight:500;
+    max-width: 400px;
+}
+
+.main-btn{
+    display: flex;
+    gap: 30px;
+}
+
+.amazon-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.amazon{
+    width: 20px;
 }
