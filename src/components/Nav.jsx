@@ -14,7 +14,9 @@ function Nav(){
                 <li href='#'>About Us</li>
                 <li href='#'>Contact</li>
             </ul> 
-             {/* Add a cart icon that has number on top that indicates how many items are in the cart*/}
+             {/* Add a cart icon that has number on top that indicates how many items are in the cart
+             or maybe make it so you have to create an account to add an item to your cart*/}
+
             <button>Login</button>
         </nav>
     )

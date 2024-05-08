@@ -8,23 +8,23 @@ import Plx from "react-plx";
 const parallaxData = [
 
 {
-  start: 100,
-  duration:900,
+  start: 0,
+  duration:1000,
   properties: [
     {
       startValue: 0,
-      endValue: 950,
+      endValue: 900,
       property: "translateY",
     },
   ],
 },
 {
-  start: 100,
+  start: 0,
   duration: 1000,
   properties: [
     {
       startValue: 0,
-      endValue: -470,
+      endValue: -400,
       property: "translateX",
     },
   ],
@@ -57,11 +57,10 @@ function Main() {
         </div>
       </div>
 
-      <Plx parallaxData={parallaxData}>
-      <div className="main-img-container">
+      <Plx className=" main-img-container" parallaxData={parallaxData}>
         <img src={backpack} alt="" className='bigimg'/>
-      </div>
       </Plx>
+    {/* instead of scrolling down create lines that appear one by one from bag once reaches bottom position pointing out key features of the bag */}
 
     </main>
   );

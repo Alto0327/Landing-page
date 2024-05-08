@@ -21,6 +21,7 @@ button{
     font-size: 1rem;
 }
 
+
 .container {
     margin: 0 auto;
     max-width: 1080px;
@@ -40,7 +41,7 @@ button{
 
 .landing{
    /* height: calc(100vh- 4.5rem); */
-   height: 200vh;
+   height: 300vh;
    margin-top: 4rem;
     display: flex;
     align-items: start;
