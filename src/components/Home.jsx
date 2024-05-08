@@ -13,18 +13,18 @@ const parallaxData = [
   properties: [
     {
       startValue: 0,
-      endValue: 900,
+      endValue: 950,
       property: "translateY",
     },
   ],
 },
 {
-  start: 400,
+  start: 100,
   duration: 1000,
   properties: [
     {
       startValue: 0,
-      endValue: -1000,
+      endValue: -470,
       property: "translateX",
     },
   ],
@@ -58,7 +58,7 @@ function Main() {
       </div>
 
       <Plx parallaxData={parallaxData}>
-        <div className="main-img-container">
+      <div className="main-img-container">
         <img src={backpack} alt="" className='bigimg'/>
       </div>
       </Plx>
