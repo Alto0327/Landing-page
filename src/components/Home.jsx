@@ -2,6 +2,34 @@ import backpack from '../assets/backpack.png'
 import amazon from '../assets/amazon.png'
 import flipkart from '../assets/flipkart.png'
 import './component.css'
+import React, { Component } from "react";
+import Plx from "react-plx";
+
+const parallaxData = [
+
+{
+  start: 100,
+  duration:900,
+  properties: [
+    {
+      startValue: 0,
+      endValue: 900,
+      property: "translateY",
+    },
+  ],
+},
+{
+  start: 400,
+  duration: 1000,
+  properties: [
+    {
+      startValue: 0,
+      endValue: -1000,
+      property: "translateX",
+    },
+  ],
+},
+];
 
 function Main() {
   return (
@@ -29,9 +57,12 @@ function Main() {
         </div>
       </div>
 
-      <div className="main-img-container">
+      <Plx parallaxData={parallaxData}>
+        <div className="main-img-container">
         <img src={backpack} alt="" className='bigimg'/>
       </div>
+      </Plx>
+
     </main>
   );
 }

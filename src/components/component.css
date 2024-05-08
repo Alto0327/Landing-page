@@ -39,16 +39,19 @@ button{
 }
 
 .landing{
-    height: calc(100vh- 4.5rem);
+   /* height: calc(100vh- 4.5rem); */
+   height: 200vh;
+   margin-top: 4rem;
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .bigimg{
     width: 600px;
     height: 600px;
-    margin-right: -80px;
-    margin-top: -88px;
+/*    margin-right: -80px;
+    margin-top: 1rem;
+    */
 }
 .main-text{
     display: flex;
