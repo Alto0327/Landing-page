@@ -1,5 +1,6 @@
 import backpack from '../assets/backpack.png'
 import amazon from '../assets/amazon.png'
+import flipkart from '../assets/flipkart.png'
 import './component.css'
 
 function Main() {
@@ -16,10 +17,15 @@ function Main() {
         <button>Shop Now</button>
         <button className="second-btn">Add to Cart</button>
       </div>
-      <div className='amazon-container'>
 
       <p>Available on</p>
+      <div className='link-container'>
+       <a href="https://www.amazon.com" target='_blank'>
         <img src={amazon} alt="amazon" className='amazon'/>
+        </a> 
+        <a href="https://www.flipkart.com" target='_blank'>
+          <img src={flipkart} alt="flipcart" />
+        </a>
         </div>
       </div>
 

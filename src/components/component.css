@@ -9,7 +9,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 4rem;
-    padding-top: 1.25rem;
 }
 
 button{
@@ -17,8 +16,9 @@ button{
     color: var(--offWhite);
     border: none;
     padding: 0.375rem 1rem;
-    height: 2rem;
+    height: 2.8rem;
     font-weight: 500;
+    font-size: 1rem;
 }
 
 .container {
@@ -28,7 +28,8 @@ button{
 
 .logo_icon{
     height: fill;
-    width: 4.375rem;
+    width: 4rem;
+    margin-top: 10px;
 }
 
 
@@ -63,20 +64,33 @@ button{
 
 .main-text p{
     font-size: 16px;
-    line-height: 20px;
+    line-height: 25px;
     font-weight:500;
     max-width: 400px;
 }
 
 .main-btn{
     display: flex;
+    flex-direction: row;
     gap: 30px;
 }
 
-.amazon-container{
+.main-btn button{
+    font-size: 24px;
+}
+
+.second-btn{
+    background: transparent;
+    color: #2e2e2e;
+    border: 2px solid #2e2e2e;
+}
+
+.link-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
+    align-items: center;
+    margin-top: -1.5rem;
 }
 
 
